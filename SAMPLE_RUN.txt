@@ -1,0 +1,372 @@
+# SAMPLE RUN WITH OUTPUT TO STDOUT #################################################################
+
+python make_tables.py testfiles/serafina_mod.html
+
+    1
+    {u'Charity': 'community.html',
+     u'Contact': 'contact.html',
+     u'Gallery': 'gallery.html',
+     u'Home': 'index.html',
+     u'Jobs': 'jobs.html',
+     u'Menus': 'menu.html',
+     u'Our Products': 'products.html'}
+    [u'home', u'menu', u'contact', u'galleri', u'our', u'product', u'chariti', u'job']
+
+    2
+    {u'Catering& Events': 'catering.html',
+     u'Fab Food': 'fabfood.html',
+     u'Locations': 'locations.html',
+     u'Our Story$2X': 'ourstory.html',
+     u'Press': 'press.html'}
+    [u'locat', u'fab', u'food', u'press', u'our', u'story2x', u'cater', u'event', u'press']
+
+
+# SAMPLE RUN WITH OUTPUT TO STDOUT #################################################################
+
+
+python make_tables.py http://www.nytimes.com/
+
+    1
+    {u'Digital': 'http://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=homepage.nytimes.com/index.html&pos=Bar1&sn2=5b35bc29/49f095e7&sn1=76a23e51/37862598&camp=nyt2013_bar1_hp_digi_hd_3F4YQ_3F4YL&ad=043012-HP_bar1_3F4YQ_3F4YK&goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fsubscriptions%2FMultiproduct%2Flp5558%2Ehtml%3Fadxc%3D210068%26adxa%3D300150%26page%3Dhomepage.nytimes.com/index.html%26pos%3DBar1%26campaignId%3D3F4YQ',
+     u'Home Delivery': 'http://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=homepage.nytimes.com/index.html&pos=Bar1&sn2=5b35bc29/49f095e7&sn1=7d8d321f/f1a9d222&camp=nyt2013_bar1_hp_digi_hd_3F4YQ_3F4YL&ad=043012-HP_bar1_3F4YQ_3F4YK&goto=http%3A%2F%2Fnytimesathome%2Ecom%2Fhd%2F142%3FMediaCode%3DW39AA%26CMP%3D3F4YL%26adxc%3D210068%26adxa%3D300150%26page%3Dhomepage.nytimes.com/index.html%26pos%3DBar1%26campaignId%3D3F4YL',
+     u'Log In': '/auth/login?URI=http://',
+     u'Register Now': '/gst/regi.html'}
+    [u'digit', u'home', u'deliveri', u'log', u'in', u'regist', u'now']
+
+    2
+    {u'Home Page': 'http://www.nytimes.com',
+     u'Most Popular': 'http://www.nytimes.com/mostpopular',
+     u"Today's Paper": 'http://www.nytimes.com/pages/todayspaper/index.html',
+     u'Video': 'http://video.nytimes.com/'}
+    [u'home', u'page', u'todai', u'paper', u'video', u'most', u'popular']
+
+    3
+    {u'About IHT': 'http://www.ihtinfo.com/about/history/',
+     u'Advertise': 'http://www.nytimes.whsites.net/mediakit/',
+     u'Alerts': 'https://myaccount.nytimes.com/mem/tnt.html',
+     u'Arts': 'http://www.nytimes.com/pages/arts/index.html',
+     u'Autos': 'http://www.nytimes.com/pages/automobiles/index.html',
+     u'Beta 620': 'http://beta620.nytimes.com/',
+     u'Blogs': 'http://www.nytimes.com/ref/topnews/blog-index.html',
+     u'Books': 'http://www.nytimes.com/pages/books/index.html',
+     u'Business': 'http://www.nytimes.com/pages/business/index.html',
+     u'Cartoons': 'http://wordplay.blogs.nytimes.com/cartoons/',
+     u'Classifieds': 'http://www.nytimes.com/ref/classifieds/?incamp=hpclassifiedsnav',
+     u'Corporate Subscriptions': 'http://www.nytimes.com/corporateleftnav',
+     u'Corrections': 'http://www.nytimes.com/pages/corrections/index.html',
+     u'Crosswords': 'http://www.nytimes.com/crosswordsleftnav',
+     u'Dealbook': 'http://dealbook.nytimes.com',
+     u'Digital Subscriptions': 'http://www.nytimes.com/digitalleftnav',
+     u'Education': 'http://www.nytimes.com/pages/education/index.html',
+     u'Education Rate': 'http://www.nytimes.com/educationleftnav',
+     u'Event Guide': 'http://www.nytimes.com/events/',
+     u'Gift Subscriptions': 'http://www.nytimes.com/giftleftnav',
+     u'Health': 'http://www.nytimes.com/pages/health/index.html',
+     u'Home Delivery': 'http://www.nytimes.com/hdleftnav',
+     u'Interactives': 'http://www.nytimes.com/pages/multimedia/index.html',
+     u'Jobs': 'http://jobmarket.nytimes.com/pages/jobs/',
+     u'Learning Network': 'http://www.nytimes.com/learning/index.html',
+     u'Magazine': 'http://www.nytimes.com/pages/magazine/index.html',
+     u'Media': 'http://www.nytimes.com/pages/business/media/index.html',
+     u'Mobile': 'http://www.nytimes.com/nytmobile/',
+     u'Movie Tickets': 'http://movies.nytimes.com/movies/showtimes.html',
+     u'Movies': 'http://www.nytimes.com/pages/movies/index.html',
+     u'Music': 'http://www.nytimes.com/pages/arts/music/index.html',
+     u'NYT Events': 'http://nytimes.whsites.net/timestalks/',
+     u'NYT Store': 'http://www.nytimes.com/nytstore/?utm_source=nytimes&utm_medium=HPB&utm_content=services_blk&utm_campaign=NYT-HP',
+     u'New York': 'http://www.nytimes.com/pages/nyregion/index.html',
+     u'Newsletters': 'http://www.nytimes.com/marketing/newsletters/',
+     u'Obituaries': 'http://www.nytimes.com/pages/obituaries/index.html',
+     u'Opinion': 'http://www.nytimes.com/pages/opinion/index.html',
+     u'Photography': 'http://lens.blogs.nytimes.com/',
+     u'Politics': 'http://www.nytimes.com/pages/politics/index.html',
+     u'Public Editor': 'http://publiceditor.blogs.nytimes.com/',
+     u'Real Estate': 'http://www.nytimes.com/pages/realestate/index.html',
+     u'Replica Edition': 'http://eedition.nytimes.com/cgi-bin/signup.cgi?cc=37FYY',
+     u'Science': 'http://www.nytimes.com/pages/science/index.html',
+     u'Sports': 'http://www.nytimes.com/pages/sports/index.html',
+     u'Style': 'http://www.nytimes.com/pages/style/index.html',
+     u'Sunday Review': 'http://www.nytimes.com/pages/opinion/index.html#sundayreview',
+     u'T Magazine': 'http://www.nytimes.com/pages/t-magazine/index.html',
+     u'Technology': 'http://www.nytimes.com/pages/technology/index.html',
+     u'Television': 'http://www.nytimes.com/pages/arts/television/index.html',
+     u'Theater': 'http://www.nytimes.com/pages/theater/index.html',
+     u'Theater Tickets': 'http://theater.nytimes.com/gst/theater/tabclist.html',
+     u'Times Machine': 'http://timesmachine.nytimes.com/',
+     u'Times Skimmer': 'http://www.nytimes.com/timesskimmer/',
+     u'Times Topics': 'http://www.nytimes.com/pages/topics/',
+     u'Times Wire': 'http://www.nytimes.com/timeswire',
+     u'Travel': 'http://travel.nytimes.com',
+     u'U.S.': 'http://www.nytimes.com/pages/national/index.html',
+     u'Video': 'http://video.nytimes.com/',
+     u'World': 'http://www.nytimes.com/pages/world/index.html'}
+    [u'world', u'us', u'polit', u'new', u'york', u'busi', u'dealbook', u'technolog', u'sport', u'scienc', u'health', u'art', u'style', u'opinion', u'auto', u'blog', u'book', u'cartoon', u'classifi', u'crossword', u'educ', u'event', u'guid', u'job', u'magazin', u'media', u'movi', u'music', u'obituari', u'public', u'editor', u'real', u'estat', u'sundai', u'review', u't', u'magazin', u'televis', u'theater', u'travel', u'interact', u'photographi', u'video', u'alert', u'beta', u'620', u'correct', u'mobil', u'movi', u'ticket', u'learn', u'network', u'newslett', u'nyt', u'event', u'nyt', u'store', u'theater', u'ticket', u'time', u'machin', u'time', u'skimmer', u'time', u'topic', u'time', u'wire', u'home', u'deliveri', u'digit', u'subscript', u'gift', u'subscript', u'corpor', u'subscript', u'educ', u'rate', u'crossword', u'replica', u'edit', u'about', u'iht', u'advertis']
+
+    4
+    {u'Arts': 'http://www.nytimes.com/pages/arts/index.html',
+     u'Business': 'http://www.nytimes.com/pages/business/index.html',
+     u'Dealbook': 'http://dealbook.nytimes.com',
+     u'Health': 'http://www.nytimes.com/pages/health/index.html',
+     u'New York': 'http://www.nytimes.com/pages/nyregion/index.html',
+     u'Opinion': 'http://www.nytimes.com/pages/opinion/index.html',
+     u'Politics': 'http://www.nytimes.com/pages/politics/index.html',
+     u'Science': 'http://www.nytimes.com/pages/science/index.html',
+     u'Sports': 'http://www.nytimes.com/pages/sports/index.html',
+     u'Style': 'http://www.nytimes.com/pages/style/index.html',
+     u'Technology': 'http://www.nytimes.com/pages/technology/index.html',
+     u'U.S.': 'http://www.nytimes.com/pages/national/index.html',
+     u'World': 'http://www.nytimes.com/pages/world/index.html'}
+    [u'world', u'us', u'polit', u'new', u'york', u'busi', u'dealbook', u'technolog', u'sport', u'scienc', u'health', u'art', u'style', u'opinion']
+
+    5
+    {u'About IHT': 'http://www.ihtinfo.com/about/history/',
+     u'Advertise': 'http://www.nytimes.whsites.net/mediakit/',
+     u'Alerts': 'https://myaccount.nytimes.com/mem/tnt.html',
+     u'Autos': 'http://www.nytimes.com/pages/automobiles/index.html',
+     u'Beta 620': 'http://beta620.nytimes.com/',
+     u'Blogs': 'http://www.nytimes.com/ref/topnews/blog-index.html',
+     u'Books': 'http://www.nytimes.com/pages/books/index.html',
+     u'Cartoons': 'http://wordplay.blogs.nytimes.com/cartoons/',
+     u'Classifieds': 'http://www.nytimes.com/ref/classifieds/?incamp=hpclassifiedsnav',
+     u'Corporate Subscriptions': 'http://www.nytimes.com/corporateleftnav',
+     u'Corrections': 'http://www.nytimes.com/pages/corrections/index.html',
+     u'Crosswords': 'http://www.nytimes.com/crosswordsleftnav',
+     u'Digital Subscriptions': 'http://www.nytimes.com/digitalleftnav',
+     u'Education': 'http://www.nytimes.com/pages/education/index.html',
+     u'Education Rate': 'http://www.nytimes.com/educationleftnav',
+     u'Event Guide': 'http://www.nytimes.com/events/',
+     u'Gift Subscriptions': 'http://www.nytimes.com/giftleftnav',
+     u'Home Delivery': 'http://www.nytimes.com/hdleftnav',
+     u'Interactives': 'http://www.nytimes.com/pages/multimedia/index.html',
+     u'Jobs': 'http://jobmarket.nytimes.com/pages/jobs/',
+     u'Learning Network': 'http://www.nytimes.com/learning/index.html',
+     u'Magazine': 'http://www.nytimes.com/pages/magazine/index.html',
+     u'Media': 'http://www.nytimes.com/pages/business/media/index.html',
+     u'Mobile': 'http://www.nytimes.com/nytmobile/',
+     u'Movie Tickets': 'http://movies.nytimes.com/movies/showtimes.html',
+     u'Movies': 'http://www.nytimes.com/pages/movies/index.html',
+     u'Music': 'http://www.nytimes.com/pages/arts/music/index.html',
+     u'NYT Events': 'http://nytimes.whsites.net/timestalks/',
+     u'NYT Store': 'http://www.nytimes.com/nytstore/?utm_source=nytimes&utm_medium=HPB&utm_content=services_blk&utm_campaign=NYT-HP',
+     u'Newsletters': 'http://www.nytimes.com/marketing/newsletters/',
+     u'Obituaries': 'http://www.nytimes.com/pages/obituaries/index.html',
+     u'Photography': 'http://lens.blogs.nytimes.com/',
+     u'Public Editor': 'http://publiceditor.blogs.nytimes.com/',
+     u'Real Estate': 'http://www.nytimes.com/pages/realestate/index.html',
+     u'Replica Edition': 'http://eedition.nytimes.com/cgi-bin/signup.cgi?cc=37FYY',
+     u'Sunday Review': 'http://www.nytimes.com/pages/opinion/index.html#sundayreview',
+     u'T Magazine': 'http://www.nytimes.com/pages/t-magazine/index.html',
+     u'Television': 'http://www.nytimes.com/pages/arts/television/index.html',
+     u'Theater': 'http://www.nytimes.com/pages/theater/index.html',
+     u'Theater Tickets': 'http://theater.nytimes.com/gst/theater/tabclist.html',
+     u'Times Machine': 'http://timesmachine.nytimes.com/',
+     u'Times Skimmer': 'http://www.nytimes.com/timesskimmer/',
+     u'Times Topics': 'http://www.nytimes.com/pages/topics/',
+     u'Times Wire': 'http://www.nytimes.com/timeswire',
+     u'Travel': 'http://travel.nytimes.com',
+     u'Video': 'http://video.nytimes.com/'}
+    [u'auto', u'blog', u'book', u'cartoon', u'classifi', u'crossword', u'educ', u'event', u'guid', u'job', u'magazin', u'media', u'movi', u'music', u'obituari', u'public', u'editor', u'real', u'estat', u'sundai', u'review', u't', u'magazin', u'televis', u'theater', u'travel', u'interact', u'photographi', u'video', u'alert', u'beta', u'620', u'correct', u'mobil', u'movi', u'ticket', u'learn', u'network', u'newslett', u'nyt', u'event', u'nyt', u'store', u'theater', u'ticket', u'time', u'machin', u'time', u'skimmer', u'time', u'topic', u'time', u'wire', u'home', u'deliveri', u'digit', u'subscript', u'gift', u'subscript', u'corpor', u'subscript', u'educ', u'rate', u'crossword', u'replica', u'edit', u'about', u'iht', u'advertis']
+
+    6
+    {u'Autos': 'http://www.nytimes.com/pages/automobiles/index.html',
+     u'Blogs': 'http://www.nytimes.com/ref/topnews/blog-index.html',
+     u'Books': 'http://www.nytimes.com/pages/books/index.html',
+     u'Cartoons': 'http://wordplay.blogs.nytimes.com/cartoons/',
+     u'Classifieds': 'http://www.nytimes.com/ref/classifieds/?incamp=hpclassifiedsnav',
+     u'Crosswords': 'http://www.nytimes.com/crosswords/index.html',
+     u'Education': 'http://www.nytimes.com/pages/education/index.html',
+     u'Event Guide': 'http://www.nytimes.com/events/',
+     u'Jobs': 'http://jobmarket.nytimes.com/pages/jobs/',
+     u'Magazine': 'http://www.nytimes.com/pages/magazine/index.html',
+     u'Media': 'http://www.nytimes.com/pages/business/media/index.html',
+     u'Movies': 'http://www.nytimes.com/pages/movies/index.html',
+     u'Music': 'http://www.nytimes.com/pages/arts/music/index.html',
+     u'Obituaries': 'http://www.nytimes.com/pages/obituaries/index.html',
+     u'Public Editor': 'http://publiceditor.blogs.nytimes.com/',
+     u'Real Estate': 'http://www.nytimes.com/pages/realestate/index.html',
+     u'Sunday Review': 'http://www.nytimes.com/pages/opinion/index.html#sundayreview',
+     u'T Magazine': 'http://www.nytimes.com/pages/t-magazine/index.html',
+     u'Television': 'http://www.nytimes.com/pages/arts/television/index.html',
+     u'Theater': 'http://www.nytimes.com/pages/theater/index.html',
+     u'Travel': 'http://travel.nytimes.com'}
+    [u'auto', u'blog', u'book', u'cartoon', u'classifi', u'crossword', u'educ', u'event', u'guid', u'job', u'magazin', u'media', u'movi', u'music', u'obituari', u'public', u'editor', u'real', u'estat', u'sundai', u'review', u't', u'magazin', u'televis', u'theater', u'travel']
+
+    7
+    {u'Interactives': 'http://www.nytimes.com/pages/multimedia/index.html',
+     u'Photography': 'http://lens.blogs.nytimes.com/',
+     u'Video': 'http://video.nytimes.com/'}
+    [u'interact', u'photographi', u'video']
+
+    8
+    {u'Alerts': 'https://myaccount.nytimes.com/mem/tnt.html',
+     u'Beta 620': 'http://beta620.nytimes.com/',
+     u'Corrections': 'http://www.nytimes.com/pages/corrections/index.html',
+     u'Learning Network': 'http://www.nytimes.com/learning/index.html',
+     u'Mobile': 'http://www.nytimes.com/nytmobile/',
+     u'Movie Tickets': 'http://movies.nytimes.com/movies/showtimes.html',
+     u'NYT Events': 'http://nytimes.whsites.net/timestalks/',
+     u'NYT Store': 'http://www.nytimes.com/nytstore/?utm_source=nytimes&utm_medium=HPB&utm_content=services_blk&utm_campaign=NYT-HP',
+     u'Newsletters': 'http://www.nytimes.com/marketing/newsletters/',
+     u'Theater Tickets': 'http://theater.nytimes.com/gst/theater/tabclist.html',
+     u'Times Machine': 'http://timesmachine.nytimes.com/',
+     u'Times Skimmer': 'http://www.nytimes.com/timesskimmer/',
+     u'Times Topics': 'http://www.nytimes.com/pages/topics/',
+     u'Times Wire': 'http://www.nytimes.com/timeswire'}
+    [u'alert', u'beta', u'620', u'correct', u'mobil', u'movi', u'ticket', u'learn', u'network', u'newslett', u'nyt', u'event', u'nyt', u'store', u'theater', u'ticket', u'time', u'machin', u'time', u'skimmer', u'time', u'topic', u'time', u'wire']
+
+    9
+    {u'Corporate Subscriptions': 'http://www.nytimes.com/corporateleftnav',
+     u'Crosswords': 'http://www.nytimes.com/crosswordsleftnav',
+     u'Digital Subscriptions': 'http://www.nytimes.com/digitalleftnav',
+     u'Education Rate': 'http://www.nytimes.com/educationleftnav',
+     u'Gift Subscriptions': 'http://www.nytimes.com/giftleftnav',
+     u'Home Delivery': 'http://www.nytimes.com/hdleftnav',
+     u'Replica Edition': 'http://eedition.nytimes.com/cgi-bin/signup.cgi?cc=37FYY'}
+    [u'home', u'deliveri', u'digit', u'subscript', u'gift', u'subscript', u'corpor', u'subscript', u'educ', u'rate', u'crossword', u'replica', u'edit']
+
+    10
+    {u'About IHT': 'http://www.ihtinfo.com/about/history/',
+     u'Advertise': 'http://www.nytimes.whsites.net/mediakit/'}
+    [u'about', u'iht', u'advertis']
+
+    11
+    {u'Ads': 'http://www.nytimes.com/interactive/2013/07/15/nyregion/ad-campaign.html',
+     u'Candidates': 'http://www.nytimes.com/interactive/2013/04/14/nyregion/mayoral-candidates.html',
+     u'Issues': 'http://www.nytimes.com/interactive/2013/08/27/nyregion/where-the-mayoral-candidates-stand-on-key-issues.html',
+     u'Tracker': 'http://www.nytimes.com/interactive/2013/08/01/nyregion/tracking-the-mayoral-candidates-across-nyc.html'}
+    [u'candid', u'issu', u'tracker', u'ad']
+
+    12
+    {u'All Classifieds': 'http://www.nytimes.com/ref/classifieds/',
+     u'Autos': 'http://www.nytimes.com/autos/',
+     u'Jobs': 'http://jobmarket.nytimes.com/pages/jobs/',
+     u'Real Estate': 'http://www.nytimes.com/pages/realestate/index.html'}
+    [u'real', u'estat', u'auto', u'job', u'all', u'classifi']
+
+    13
+    {u'Autos': 'http://www.nytimes.com/autos/',
+     u'Business Directory': 'http://listings.nytimes.com/BusinessDirectory/searchindex.asp',
+     u'Jobs': 'http://jobmarket.nytimes.com/pages/jobs/'}
+    [u'auto', u'busi', u'directori', u'job']
+
+    14
+    {u'Social Announcements': 'http://www.legacy.com/nytimes/celebrations.asp?Page=SearchResults',
+     u'Weddings Directory': 'http://listings.nytimes.com/Weddings/searchindex.asp'}
+    [u'social', u'announc', u'wed', u'directori']
+
+    15
+    {u'News': 'http://www.nytimes.com/',
+     u'Opinion': 'http://www.nytimes.com/pages/opinion/index.html'}
+    [u'new', u'opinion']
+
+    16
+    {u'Advertise': 'http://www.nytimes.whsites.net/mediakit/',
+     u'Contact Us': 'http://www.nytimes.com/ref/membercenter/help/infoservdirectory.html',
+     u'Help': 'http://www.nytimes.com/membercenter/sitehelp.html',
+     u'Privacy': 'http://www.nytimes.com/privacy',
+     u'RSS': 'http://www.nytimes.com/rss',
+     u'Site Feedback': '/membercenter/feedback.html',
+     u'Site Map': 'http://spiderbites.nytimes.com/'}
+    [u'site', u'map', u'privaci', u'advertis', u'rss', u'help', u'contact', u'us', u'site', u'feedback']
+
+
+# SAMPLE RUN WITH OUTPUT TO STDOUT #################################################################
+
+
+./make_tables.py -f testfiles/urls_test
+
+    current http://www.nytimes.com/
+
+    16 link sets present
+
+    current www.nydailynews.com/
+
+    Html not retrieved. Check the file/url
+
+    current http://www.huffingtonpost.com/
+
+    89 link sets present
+
+    current http://www.time.com/
+
+    9 link sets present
+
+    Domain table generated for testfiles/urls_test
+    Written to file table_testfiles-urls_test
+
+
+# SAMPLE RUN WITH OUTPUT TO STDOUT #################################################################
+
+
+    ./hij_inspect.py table_testfiles-urls_test http://www.cnn.com
+
+
+
+    {u'INTERNATIONAL': 'http://edition.cnn.com/?hpt=ed_Intl', u'ARABIC': 'http://arabic.cnn.com/?hpt=ed_Arabic', u'M\xc9XICO': 'http://mexico.cnn.com/?hpt=ed_Mexico', u'SET EDITION': 'javascript:cnn_initeditionhtml(3);'}
+    matched words with  their freq
+    {u'edit': 3, u'set': 2}
+    5 2.5 1.0
+
+    {u'TV': '/CNN/Programs', u'CNN': '/cnn/programs/', u'CNNi': '/cnni/', u'HLN': 'http://www.hlntv.com'}
+    matched words with  their freq
+    {u'tv': 18, u'cnn': 1}
+    19 9.5 4.75
+
+    {u'Sign up': 'javascript:void(0);', u'Log in': 'javascript:void(0);'}
+    matched words with  their freq
+    {u'log': 1, u'in': 1}
+    2 1.0 0.5
+
+    {u'Living': '/LIVING/?hpt=sitenav', u'CNN Trends': '/trends/?hpt=sitenav', u'World': '/WORLD/?hpt=sitenav', u'Health': '/HEALTH/?hpt=sitenav', u'Entertainment': '/SHOWBIZ/?hpt=sitenav', u'Justice': '/JUSTICE/?hpt=sitenav', u'Money': 'http://money.cnn.com/?hpt=sitenav', u'U.S.': '/US/?hpt=sitenav', u'Opinion': '/OPINION/?hpt=sitenav', u'iReport': 'http://ireport.cnn.com/?hpt=sitenav', u'Tech': '/TECH/?hpt=sitenav', u'Politics': '/POLITICS/?hpt=sitenav', u'Home': '/', u'Sports': 'http://bleacherreport.com/?utm_source=cnn.com&utm_medium=referral&utm_campaign=cnn-nav', u'Travel': '/TRAVEL/?hpt=sitenav'}
+    matched words with  their freq
+    {u'sport': 15, u'monei': 8, u'travel': 11, u'us': 9, u'live': 11, u'entertain': 20, u'tech': 18, u'world': 24, u'cnn': 1, u'home': 13, u'opinion': 5, u'health': 10, u'polit': 26}
+    171 13.1538461538 10.6875
+
+    {u'Living': '/LIVING/?hpt=sitenav', u'CNN Trends': '/trends/?hpt=sitenav', u'World': '/WORLD/?hpt=sitenav', u'Health': '/HEALTH/?hpt=sitenav', u'Entertainment': '/SHOWBIZ/?hpt=sitenav', u'Justice': '/JUSTICE/?hpt=sitenav', u'Money': 'http://money.cnn.com/?hpt=sitenav', u'U.S.': '/US/?hpt=sitenav', u'Opinion': '/OPINION/?hpt=sitenav', u'iReport': 'http://ireport.cnn.com/?hpt=sitenav', u'Tech': '/TECH/?hpt=sitenav', u'Politics': '/POLITICS/?hpt=sitenav', u'Home': '/', u'Sports': 'http://bleacherreport.com/?utm_source=cnn.com&utm_medium=referral&utm_campaign=cnn-nav', u'Travel': '/TRAVEL/?hpt=sitenav'}
+    matched words with  their freq
+    {u'sport': 15, u'monei': 8, u'travel': 11, u'us': 9, u'live': 11, u'entertain': 20, u'tech': 18, u'world': 24, u'cnn': 1, u'home': 13, u'opinion': 5, u'health': 10, u'polit': 26}
+    171 13.1538461538 10.6875
+
+    {u'Diana Nyad': '/2013/09/03/us/diana-nyad-cuba-florida-swim/index.html?hpt=hp_inthenews', u'John McCain': 'http://politicalticker.blogs.cnn.com/2013/09/03/mccain-to-russia-bring-back-the-super-bowl-ring/?hpt=hp_inthenews', u'Montana rape': '/2013/09/03/us/montana-teacher-rape/index.html?hpt=hp_inthenews', u'N-word rant': '/2013/09/03/us/new-york-racial-slur-lawsuit/index.html?hpt=hp_inthenews', u'Miley Cyrus': '/2013/09/03/showbiz/celebrity-news-gossip/miley-cyrus-vma-response/index.html?hpt=hp_inthenews', u'Ariel Castro': 'http://www.cnn.com/2013/09/04/justice/ariel-castro-cleveland-kidnapper-death/index.html?hpt=hp_inthenews', u'Syria': '/2013/09/04/politics/possible-syria-strike-runup/index.html?hpt=hp_inthenews', u"Teen's autopsy": '/2013/09/03/us/georgia-teen-death-autopsy/index.html?hpt=hp_inthenews'}
+    matched words with  their freq
+    {u'teen': 4, u'ariel': 1, u'castro': 1, u'mccain': 1, u'syria': 6, u'john': 4}
+    17 2.83333333333 1.13333333333
+
+    {u'Senate': 'http://www.cnn.com/interactive/2013/09/politics/syria-congress-vote-count/index.html?hpt=hp_t1', u'House': 'http://www.cnn.com/interactive/2013/09/politics/syria-congress-vote-count/house.html?hpt=hp_t1'}
+    matched words with  their freq
+    {}
+
+    {u'Nasdaq': 'http://money.cnn.com/data/markets/nasdaq/', u'Dow': 'http://money.cnn.com/data/markets/dow/', u'S&P': 'http://money.cnn.com/data/markets/sandp/'}
+    matched words with  their freq
+    {}
+
+    {u"Al-Assad's omnipresence": 'http://cnnphotos.blogs.cnn.com/2013/08/28/the-omnipresence-of-bashar-al-assad-in-syria/?hpt=hp_bn14', u'Shower confessionals': 'http://cnnphotos.blogs.cnn.com/2013/08/25/shower-confessionals/?hpt=hp_bn14', u'Doggie divas': 'http://cnnphotos.blogs.cnn.com/2013/08/23/doggie-divas-its-all-about-love/?hpt=hp_bn14', u'Post-Soviet architecture': 'http://cnnphotos.blogs.cnn.com/2013/09/03/exploring-post-soviet-architectural-oddities/?hpt=hp_bn14'}
+    matched words with  their freq
+    {}
+
+    Finding the best ones...
+
+    Score list
+    [5, 19, 2, 171, 171, 17, 0, 0, 0]
+
+    More that one set of links have the same score. Choosing the first one for now...
+    {'links_dict': {u'CNN Trends': 'http://www.cnn.com//trends/?hpt=sitenav',
+                    u'Entertainment': 'http://www.cnn.com//SHOWBIZ/?hpt=sitenav',
+                    u'Health': 'http://www.cnn.com//HEALTH/?hpt=sitenav',
+                    u'Home': 'http://www.cnn.com//',
+                    u'Justice': 'http://www.cnn.com//JUSTICE/?hpt=sitenav',
+                    u'Living': 'http://www.cnn.com//LIVING/?hpt=sitenav',
+                    u'Money': 'http://money.cnn.com/?hpt=sitenav',
+                    u'Opinion': 'http://www.cnn.com//OPINION/?hpt=sitenav',
+                    u'Politics': 'http://www.cnn.com//POLITICS/?hpt=sitenav',
+                    u'Sports': 'http://bleacherreport.com/?utm_source=cnn.com&utm_medium=referral&utm_campaign=cnn-nav',
+                    u'Tech': 'http://www.cnn.com//TECH/?hpt=sitenav',
+                    u'Travel': 'http://www.cnn.com//TRAVEL/?hpt=sitenav',
+                    u'U.S.': 'http://www.cnn.com//US/?hpt=sitenav',
+                    u'World': 'http://www.cnn.com//WORLD/?hpt=sitenav',
+                    u'iReport': 'http://ireport.cnn.com/?hpt=sitenav'},
+     'url': 'http://www.cnn.com/'}
+    score:  171
+
+
+

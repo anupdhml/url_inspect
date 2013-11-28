@@ -1,0 +1,14 @@
+option to pick the next-best url list
+cleanup domain tables
+sorted json
+find a better way to score urllists (length, score...)..this should also block overly long urlsets
+update table with what user finds
+maintain a log file
+
+future:
+    url-list extraction based on depth
+    after this:
+        remove duplicate sets from the collection of link sets.
+        duplicates occur because we are searching for both 'ul' and nav-id.
+        duplicates kept for now as it actually gives priority to the
+        keywords occuring in nav bars...
